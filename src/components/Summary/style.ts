@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import Summary from "./index";
 
 export const SummaryContainer = styled.div`
   width: 100%;
