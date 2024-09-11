@@ -1,6 +1,7 @@
 import { Triangle } from "phosphor-react";
 import { HeaderContainer, HeaderContent, NewTransactionButton } from "./style";
 import * as Dialog from "@radix-ui/react-dialog";
+import { NewTransactionModal } from "../NewTransactionModal";
 
 export default function Header() {
   return (
@@ -9,7 +10,10 @@ export default function Header() {
         <Triangle size={20} weight="fill" color="#00875f" />
 
         <Dialog.Root>
-          <NewTransactionButton>Nova transação</NewTransactionButton>
+          <Dialog.Trigger asChild>
+            <NewTransactionButton>Nova transação</NewTransactionButton>
+          </Dialog.Trigger>
+          <NewTransactionModal />
         </Dialog.Root>
       </HeaderContent>
     </HeaderContainer>
