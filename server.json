@@ -4,8 +4,8 @@
       "id": 1,
       "price": 14000,
       "type": "income",
-      "category": "vendas",
-      "desciption": "Desenvolvimento de site",
+      "category": "Venda",
+      "description": "Desenvolvimento de site",
       "createdAt": "2024-09-12T15:50:55.653Z"
     },
     {
@@ -13,7 +13,7 @@
       "price": 55,
       "type": "outcome",
       "category": "Alimentação",
-      "desciption": "Hamburguer",
+      "description": "Hamburguer",
       "createdAt": "2024-09-12T15:10:55.653Z"
     }
   ]
