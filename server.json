@@ -15,6 +15,14 @@
       "category": "Alimentação",
       "description": "Hamburguer",
       "createdAt": "2024-09-12T15:10:55.653Z"
+    },
+    {
+      "id": 3,
+      "price": 1890,
+      "type": "outcome",
+      "category": "Educação",
+      "description": "UDEMY",
+      "createdAt": "2024-09-12T15:10:55.653Z"
     }
   ]
 }
