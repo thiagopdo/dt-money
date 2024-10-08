@@ -1,7 +1,7 @@
 {
   "transactions": [
     {
-      "id": 1,
+      "id": "1",
       "price": 14000,
       "type": "income",
       "category": "Venda",
@@ -9,7 +9,7 @@
       "createdAt": "2024-09-12T15:50:55.653Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "price": 55,
       "type": "outcome",
       "category": "Alimentação",
@@ -17,12 +17,44 @@
       "createdAt": "2024-09-12T15:10:55.653Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "price": 1890,
       "type": "outcome",
       "category": "Educação",
       "description": "UDEMY",
       "createdAt": "2024-09-12T15:10:55.653Z"
+    },
+    {
+      "id": "d812",
+      "description": "sanduiche",
+      "price": 120,
+      "category": "Lanche",
+      "type": "income",
+      "createdAt": "2024-10-08T21:38:06.528Z"
+    },
+    {
+      "id": "837c",
+      "description": "lixo",
+      "price": 1200,
+      "category": "comida",
+      "type": "outcome",
+      "createdAt": "2024-10-08T21:39:45.799Z"
+    },
+    {
+      "id": "0b99",
+      "description": "PASTEL",
+      "price": 5,
+      "category": "comida",
+      "type": "outcome",
+      "createdAt": "2024-10-08T22:06:36.339Z"
+    },
+    {
+      "id": "24bd",
+      "description": "Iorgute",
+      "price": 25,
+      "category": "Alimentacao",
+      "type": "outcome",
+      "createdAt": "2024-10-08T22:22:47.593Z"
     }
   ]
 }
